@@ -50,8 +50,15 @@ class RoboCat;
 class GameObject;
 
 #include "StringUtils.h"
+#include "RoboMath.h"
+#include "LinkingContext.h"
+#include "ByteSwap.h"
+#include "MemoryStream.h"
+#include "MemoryBitStream.h"
+
 #include "SocketAddress.h"
 #include "SocketAddressFactory.h"
 #include "UDPSocket.h"
 #include "TCPSocket.h"
 #include "SocketUtil.h"
+

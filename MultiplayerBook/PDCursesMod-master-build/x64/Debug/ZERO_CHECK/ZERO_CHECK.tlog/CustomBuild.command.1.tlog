@@ -1,0 +1,10 @@
+^C:\USERS\LUCIA\PROGRAMACAO\MY PROJECT\MULTIPLAYERBOOK\PDCURSESMOD-MASTER-BUILD\CMAKEFILES\6E16EBC12055B6C53C73F28049D09B4D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master" "-BC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/pdcurses.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

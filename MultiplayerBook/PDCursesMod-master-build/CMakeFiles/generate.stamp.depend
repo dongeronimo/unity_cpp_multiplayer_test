@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/CMakeFiles/3.26.4/CMakeCCompiler.cmake
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/CMakeFiles/3.26.4/CMakeRCCompiler.cmake
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/CMakeFiles/3.26.4/CMakeSystem.cmake
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/target_arch_detect.c
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/CMakeLists.txt
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/cmake/build_dependencies.cmake
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/cmake/build_options.cmake
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/cmake/gen_config_header.cmake
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/cmake/get_version.cmake
+C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/cmake/target_arch.cmake

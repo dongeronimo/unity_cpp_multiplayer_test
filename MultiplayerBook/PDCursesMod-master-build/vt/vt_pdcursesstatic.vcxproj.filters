@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\vt\pdcclip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\vt\pdcdisp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\vt\pdcgetsc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\vt\pdckbd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\vt\pdcscrn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\vt\pdcsetsc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\vt\pdcutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\addch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\addchstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\addstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\attr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\beep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\bkgd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\border.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\clear.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\color.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\delch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\deleteln.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\getch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\getstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\getyx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\inch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\inchstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\initscr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\inopts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\insch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\insstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\instr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\kernel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\keyname.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\mouse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\move.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\outopts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\overlay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\pad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\panel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\printw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\refresh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\scanw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\scr_dump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\scroll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\slk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\termattr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\terminfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\touch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\pdcurses\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\vt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\version.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2EFD7C06-E21A-37A8-BBC5-826AC3213C4B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

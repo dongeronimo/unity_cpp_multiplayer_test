@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\Debug\firework.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\Debug\newtest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\Debug\ozdemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\Debug\ptest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\Debug\rain.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\Debug\testcurs.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\Debug\tuidemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\Debug\worm.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\Debug\xmas.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\calendar.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\firework.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\init_col.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\mbrot.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\newtest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\ozdemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\picsview.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\ptest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\rain.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\speed.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\test_pan.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\testcurs.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\version.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\widetest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\worm.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\Debug\xmas.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\calendar.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\firework.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\init_col.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\mbrot.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\newtest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\ozdemo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\picsview.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\ptest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\rain.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\speed.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\test_pan.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\testcurs.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\version.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\widetest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\worm.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\Debug\xmas.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

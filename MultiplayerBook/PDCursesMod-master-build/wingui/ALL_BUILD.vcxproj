@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C73FC40A-6628-3A02-A92F-17098A35A7AC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\wingui\..;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\wingui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\wingui\..;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\wingui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\wingui\..;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\wingui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\wingui\..;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\wingui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\wingui\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/wingui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master" "-BC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build" --check-stamp-file "C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/wingui/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\dll_version.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\project_common.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\resource.in.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\version.in.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/wingui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master" "-BC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build" --check-stamp-file "C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/wingui/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\dll_version.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\project_common.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\resource.in.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\version.in.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/wingui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master" "-BC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build" --check-stamp-file "C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/wingui/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\dll_version.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\project_common.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\resource.in.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\version.in.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/wingui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master" "-BC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build" --check-stamp-file "C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/wingui/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\dll_version.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\project_common.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\resource.in.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\version.in.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\ZERO_CHECK.vcxproj">
+      <Project>{371E6F3C-EDD4-3308-98CB-344CFA0E0FEA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_calendar.vcxproj">
+      <Project>{B545B3A0-71F9-3D82-B275-4F045D56A158}</Project>
+      <Name>wingui_calendar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_firework.vcxproj">
+      <Project>{2AA011FD-2A2D-33C8-B82E-5A4362954F4D}</Project>
+      <Name>wingui_firework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_init_col.vcxproj">
+      <Project>{374E4F10-0741-3E52-A33F-6F62458C0581}</Project>
+      <Name>wingui_init_col</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_mbrot.vcxproj">
+      <Project>{89F3799A-6464-3747-B305-1DAD1A4751DA}</Project>
+      <Name>wingui_mbrot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_newtest.vcxproj">
+      <Project>{709BE269-AA13-316A-B6D0-6927F3AE0D1B}</Project>
+      <Name>wingui_newtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_ozdemo.vcxproj">
+      <Project>{9149EB06-03E8-3258-A0DF-51215C2C30BF}</Project>
+      <Name>wingui_ozdemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_pdcursesstatic.vcxproj">
+      <Project>{480B7C57-441A-3545-AB44-8C82626211C6}</Project>
+      <Name>wingui_pdcursesstatic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_picsview.vcxproj">
+      <Project>{C2B38D40-3DFC-37A4-97CC-6377F7B0677F}</Project>
+      <Name>wingui_picsview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_ptest.vcxproj">
+      <Project>{28F1A06E-F792-35AE-A794-67BB302DB23E}</Project>
+      <Name>wingui_ptest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_rain.vcxproj">
+      <Project>{97458D31-4E3F-3138-BFDF-CCF0D994AFE4}</Project>
+      <Name>wingui_rain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_speed.vcxproj">
+      <Project>{2C777A8F-29B2-3E71-92D9-2306225CC3A8}</Project>
+      <Name>wingui_speed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_test_pan.vcxproj">
+      <Project>{0B161334-6F91-35B3-B553-A02E2E9EDFF7}</Project>
+      <Name>wingui_test_pan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_testcurs.vcxproj">
+      <Project>{1F22A78C-C0AE-3F22-84E9-BE964A8194CF}</Project>
+      <Name>wingui_testcurs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_version.vcxproj">
+      <Project>{8FCD3C5F-44D6-3A57-8C19-194A5FF81429}</Project>
+      <Name>wingui_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_widetest.vcxproj">
+      <Project>{87D3D824-B637-3755-B1EB-5F0F048B58AF}</Project>
+      <Name>wingui_widetest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_worm.vcxproj">
+      <Project>{03814DE4-2916-3402-B8A7-4F048DF3EAFF}</Project>
+      <Name>wingui_worm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_xmas.vcxproj">
+      <Project>{39E975E5-2E41-3017-988B-4905D789701A}</Project>
+      <Name>wingui_xmas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

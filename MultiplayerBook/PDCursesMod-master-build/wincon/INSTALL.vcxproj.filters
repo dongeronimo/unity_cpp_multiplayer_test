@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\84227e4dbf1348cb1cc183fc2c6f4138\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{587612CE-A88F-365A-A027-15180B423D76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

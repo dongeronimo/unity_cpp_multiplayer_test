@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=C:/Program Files/CMake/bin/cmake.exe;-P;C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/zlib_ext-prefix/tmp/zlib_ext-gitclone.cmake
+source_dir=C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/zlib
+work_dir=C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build
+repository=https://github.com/madler/zlib.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=
+

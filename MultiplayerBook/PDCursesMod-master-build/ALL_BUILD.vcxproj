@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C73FC40A-6628-3A02-A92F-17098A35A7AC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master" "-BC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build" --check-stamp-file "C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\target_arch_detect.c;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\build_dependencies.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\build_options.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\gen_config_header.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\get_version.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\target_arch.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master" "-BC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build" --check-stamp-file "C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\target_arch_detect.c;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\build_dependencies.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\build_options.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\gen_config_header.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\get_version.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\target_arch.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master" "-BC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build" --check-stamp-file "C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\target_arch_detect.c;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\build_dependencies.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\build_options.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\gen_config_header.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\get_version.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\target_arch.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master" "-BC:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build" --check-stamp-file "C:/Users/lucia/programacao/My project/MultiplayerBook/PDCursesMod-master-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\3.26.4\CMakeSystem.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\target_arch_detect.c;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\build_dependencies.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\build_options.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\gen_config_header.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\get_version.cmake;C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master\cmake\target_arch.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\ZERO_CHECK.vcxproj">
+      <Project>{371E6F3C-EDD4-3308-98CB-344CFA0E0FEA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_firework.vcxproj">
+      <Project>{8E4D39FF-67E5-3214-A7B9-79962723CC8F}</Project>
+      <Name>vt_firework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_newtest.vcxproj">
+      <Project>{6980EDD1-417E-3328-BC47-49294D007397}</Project>
+      <Name>vt_newtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_ozdemo.vcxproj">
+      <Project>{25FD5779-3221-399B-9DC5-0E8E15200924}</Project>
+      <Name>vt_ozdemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_pdcursesstatic.vcxproj">
+      <Project>{CCE7B2F3-B297-30B7-8F0F-6877AADC56E2}</Project>
+      <Name>vt_pdcursesstatic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_ptest.vcxproj">
+      <Project>{7E672EDD-62F2-32CD-8291-29CC1BCCCEFD}</Project>
+      <Name>vt_ptest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_rain.vcxproj">
+      <Project>{23A65323-3235-3BBF-B2DC-085C91899976}</Project>
+      <Name>vt_rain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_testcurs.vcxproj">
+      <Project>{130E90EA-CB55-322A-A605-EACDEB7F6D55}</Project>
+      <Name>vt_testcurs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_tuidemo.vcxproj">
+      <Project>{A0972F13-42EB-3950-9FDC-28EB49B0A3DC}</Project>
+      <Name>vt_tuidemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_worm.vcxproj">
+      <Project>{07CF9531-B88A-3A91-B896-A62626B17DE6}</Project>
+      <Name>vt_worm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\vt\vt_xmas.vcxproj">
+      <Project>{BFA6E6D8-9DBF-3CBA-AA2D-1CBE3057CBE8}</Project>
+      <Name>vt_xmas</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_calendar.vcxproj">
+      <Project>{EA847CC7-5AA2-3004-8904-9AF0D830D796}</Project>
+      <Name>wincon_calendar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_firework.vcxproj">
+      <Project>{4CC3ACED-5E34-3445-95A1-9B4E4897859E}</Project>
+      <Name>wincon_firework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_init_col.vcxproj">
+      <Project>{4FBFD622-5B06-388D-8D01-65A0CFE4E7BE}</Project>
+      <Name>wincon_init_col</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_mbrot.vcxproj">
+      <Project>{C3E44223-B6C7-36EE-A2F0-AB9D0E6DC6C3}</Project>
+      <Name>wincon_mbrot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_newtest.vcxproj">
+      <Project>{E59C665A-1A0C-3DA4-9377-65417AAE872C}</Project>
+      <Name>wincon_newtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_ozdemo.vcxproj">
+      <Project>{25412F61-7681-3E47-BBF3-8644F2E24EE3}</Project>
+      <Name>wincon_ozdemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_pdcursesstatic.vcxproj">
+      <Project>{283CBC57-4407-37F1-9C00-AD0A14277628}</Project>
+      <Name>wincon_pdcursesstatic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_picsview.vcxproj">
+      <Project>{65DABA51-0CAF-3E8C-8099-8AC721957A4A}</Project>
+      <Name>wincon_picsview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_ptest.vcxproj">
+      <Project>{27A8BB1A-4098-3CD6-9B1E-9DBCA0D2D5A3}</Project>
+      <Name>wincon_ptest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_rain.vcxproj">
+      <Project>{7D831570-2F9F-3399-A84E-90B70F4E7B14}</Project>
+      <Name>wincon_rain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_speed.vcxproj">
+      <Project>{47BCFE29-6C54-31FF-BCC3-3458813C0890}</Project>
+      <Name>wincon_speed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_test_pan.vcxproj">
+      <Project>{0F77A24F-1389-3B0B-9187-5F74502BFE9B}</Project>
+      <Name>wincon_test_pan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_testcurs.vcxproj">
+      <Project>{4F41F7E0-CE61-3CC0-974A-321A3FF3B87D}</Project>
+      <Name>wincon_testcurs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_version.vcxproj">
+      <Project>{B8C43293-FF6B-3484-8BF4-5D300D6F8183}</Project>
+      <Name>wincon_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_widetest.vcxproj">
+      <Project>{5BE6DBEA-542C-392E-BADD-D51A024D5887}</Project>
+      <Name>wincon_widetest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_worm.vcxproj">
+      <Project>{2EB3DD80-1CB7-32EF-B5D8-A7A0218E21B8}</Project>
+      <Name>wincon_worm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wincon\wincon_xmas.vcxproj">
+      <Project>{47326595-EA61-3E5A-8727-22A8023D9BA0}</Project>
+      <Name>wincon_xmas</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_calendar.vcxproj">
+      <Project>{B545B3A0-71F9-3D82-B275-4F045D56A158}</Project>
+      <Name>wingui_calendar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_firework.vcxproj">
+      <Project>{2AA011FD-2A2D-33C8-B82E-5A4362954F4D}</Project>
+      <Name>wingui_firework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_init_col.vcxproj">
+      <Project>{374E4F10-0741-3E52-A33F-6F62458C0581}</Project>
+      <Name>wingui_init_col</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_mbrot.vcxproj">
+      <Project>{89F3799A-6464-3747-B305-1DAD1A4751DA}</Project>
+      <Name>wingui_mbrot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_newtest.vcxproj">
+      <Project>{709BE269-AA13-316A-B6D0-6927F3AE0D1B}</Project>
+      <Name>wingui_newtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_ozdemo.vcxproj">
+      <Project>{9149EB06-03E8-3258-A0DF-51215C2C30BF}</Project>
+      <Name>wingui_ozdemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_pdcursesstatic.vcxproj">
+      <Project>{480B7C57-441A-3545-AB44-8C82626211C6}</Project>
+      <Name>wingui_pdcursesstatic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_picsview.vcxproj">
+      <Project>{C2B38D40-3DFC-37A4-97CC-6377F7B0677F}</Project>
+      <Name>wingui_picsview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_ptest.vcxproj">
+      <Project>{28F1A06E-F792-35AE-A794-67BB302DB23E}</Project>
+      <Name>wingui_ptest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_rain.vcxproj">
+      <Project>{97458D31-4E3F-3138-BFDF-CCF0D994AFE4}</Project>
+      <Name>wingui_rain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_speed.vcxproj">
+      <Project>{2C777A8F-29B2-3E71-92D9-2306225CC3A8}</Project>
+      <Name>wingui_speed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_test_pan.vcxproj">
+      <Project>{0B161334-6F91-35B3-B553-A02E2E9EDFF7}</Project>
+      <Name>wingui_test_pan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_testcurs.vcxproj">
+      <Project>{1F22A78C-C0AE-3F22-84E9-BE964A8194CF}</Project>
+      <Name>wingui_testcurs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_version.vcxproj">
+      <Project>{8FCD3C5F-44D6-3A57-8C19-194A5FF81429}</Project>
+      <Name>wingui_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_widetest.vcxproj">
+      <Project>{87D3D824-B637-3755-B1EB-5F0F048B58AF}</Project>
+      <Name>wingui_widetest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_worm.vcxproj">
+      <Project>{03814DE4-2916-3402-B8A7-4F048DF3EAFF}</Project>
+      <Name>wingui_worm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\lucia\programacao\My project\MultiplayerBook\PDCursesMod-master-build\wingui\wingui_xmas.vcxproj">
+      <Project>{39E975E5-2E41-3017-988B-4905D789701A}</Project>
+      <Name>wingui_xmas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
